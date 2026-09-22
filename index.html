@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>LILI'S Kitty Shop</title>
+</head>
+
+<body>
+
+  <header class="shop-header">
+    <div>
+      <p class="mini-title">LILI'S</p>
+      <h1>Kitty Shop 🐱💕</h1>
+      <p class="subtitle">Save • Collect • Play • Repeat</p>
+    </div>
+
+    <button class="cart-button" id="cartButton">
+      🛒 Cart <span id="cartCount">0</span>
+    </button>
+  </header>
+
+  <main>
+
+    <section class="shop-intro">
+      <h2>Welcome to the Shop! 🛍️</h2>
+
+      <p>
+        Pick your goodies and add them to your cart.
+        Your total will be worked out in Kitty Cash! 💗
+      </p>
+    </section>
+
+    <section class="products" id="productList">
+    </section>
+
+  </main>
+
+  <div class="cart-panel" id="cartPanel">
+
+    <div class="cart-heading">
+      <h2>🛒 My Cart</h2>
+      <button id="closeCart">✕</button>
+    </div>
+
+    <div id="cartItems">
+      <p class="empty-cart">Your cart is empty! 🐾</p>
+    </div>
+
+    <div class="cart-total">
+      <span>Total:</span>
+      <strong id="cartTotal">$0.00 Kitty Cash</strong>
+    </div>
+
+    <button class="checkout-button" id="checkoutButton">
+      Place Kitty Order 💕
+    </button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
